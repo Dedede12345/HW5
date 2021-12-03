@@ -32,4 +32,4 @@ siblings = (grandchildren, SIBLINGS)
 
 count(siblings)
 
-input()
+input('Для выхода нажмите \'enter\'')
