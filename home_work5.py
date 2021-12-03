@@ -1,7 +1,7 @@
 
-SIBLINGS = ('Me', 'Bro', ('Dad', ('Grandma', 'grandad')), ("Ma", ('grandmother', 'grandfather')))
+FAMILY = ('Me', 'Bro', ('Dad', ('Grandma', 'grandad')), ("Ma", ('grandmother', 'grandfather')))
 
-print(f'Отец матери: {SIBLINGS[3][1][1]}, мать отца: {SIBLINGS[2][1][0]}')
+print(f'Отец матери: {FAMILY[3][1][1]}, мать отца: {FAMILY[2][1][0]}')
 
 def count(a):
     quantity = 0
@@ -24,7 +24,7 @@ def count(a):
 
     print(f'Всего в семье {quantity} членов.')
 
-count(SIBLINGS)
+count(FAMILY)
 
 grandchildren = ('Izya','Moysha')
 
