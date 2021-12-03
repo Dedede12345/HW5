@@ -28,8 +28,8 @@ count(FAMILY)
 
 grandchildren = ('Izya','Moysha')
 
-siblings = (grandchildren, FAMILY)
+entire = (grandchildren, FAMILY)
 
-count(siblings)
+count(entire)
 
 input('Для выхода нажмите \'enter\'')
