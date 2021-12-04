@@ -60,3 +60,5 @@ for u in lis:
     lis0.append(deoct(u))
 
 print(lis0)
+
+input()
