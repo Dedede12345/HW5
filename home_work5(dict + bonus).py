@@ -63,3 +63,5 @@ for u in lis:
 
 for i in lis0:
     print(i, end=' ')
+
+input()
