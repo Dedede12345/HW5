@@ -58,7 +58,8 @@ def deoct(oct):
 
 for u in lis:
     lis0.append(deoct(u))
+    # print(u, end=', ')
+    # deoct(u)
 
-print(lis0)
-
-input()
+for i in lis0:
+    print(i, end=' ')
