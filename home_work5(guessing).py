@@ -1,6 +1,6 @@
 import random
 
-number = random.randint(-100, 101)
+number = random.randint(-100, 100)
 while True:
     guess = int(input('Введите число '))
     if guess < number:

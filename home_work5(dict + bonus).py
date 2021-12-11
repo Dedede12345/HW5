@@ -47,21 +47,15 @@ x = 0
 
 lis = ['0o131', '0o157', '0o165', '0o40', '0o141', '0o162', '0o145', '0o40', '0o147', '0o145', '0o156', '0o151', '0o165', '0o163', '0o41']
 
-lis0 = []
+def deoct2(lis):
+    for oct in lis:
+        f = 0
+        oct = oct.replace('0o', '')
+        for i in range(len(oct)):
+            x = int(oct[-(i+1)]) * (8 ** i)
+            f += x
+        print(f, end=' ')
 
-def deoct(oct):
-    g = 0
-    for i in range(len(oct) - 2):
-        x =int(oct[-(i + 1)]) * (8 ** i)
-        g += x
-    return g
-
-for u in lis:
-    lis0.append(deoct(u))
-    # print(u, end=', ')
-    # deoct(u)
-
-for i in lis0:
-    print(i, end=' ')
+deoct2(lis)
 
 input()
